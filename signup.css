@@ -1,0 +1,17 @@
+/*body {
+  background-color:#b6b5b7
+}
+*/
+input{
+  padding:10px 20px;
+  border:20px 20px;
+  border-radius:10px;
+  margin:8px;
+  width:auto;
+  align-items: center;
+
+}
+
+#username{
+  align-items: center;
+}
