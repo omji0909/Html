@@ -7,15 +7,21 @@
     <body>
       <form>
         <div id="username">
-          <input id="username" name="First Name" type="text"  placeholder="First Name">
-          <input  name="Last Name" type="text" placeholder="Last Name">
+          <label for="fname">First Name</label>
+
+          <input id="fname" name="First Name" type="text"  placeholder="First Name">
+          <label for="lname">Last Name</label>
+          <input id="lname" name="Last Name" type="text" placeholder="Last Name">
         </div>
         <div>
-          <input name="Email" type="text"  placeholder="Email">
-          <input name="Password" type="password" placeholder="Password">
+          <label for="email">Email</label>
+          <input id="email" name="Email" type="text"  placeholder="Email">
+          <label for="password">Password</label>
+          <input id="password" name="Password" type="password" placeholder="Password">
         </div>
         <div>
-          <input name="Year"  list="year" type="number" placeholder="Year of birth">
+          <label for="year">Year of Birth</label>
+          <input id="year" name="Year"  list="year" type="number" placeholder="Year of birth">
           <datalist id="year">
             <option value="2005">
             <option value="2004">
@@ -53,7 +59,8 @@
             <option value="1972">
             <option value="1971">
           </datalist>
-          <input name="Month" type="text" list="month" placeholder="Month of birth">
+          <label for="month">Month of birth</label>
+          <input id="month" name="Month" type="text" list="month" placeholder="Month of birth">
           <datalist id="month">
             <option value="January">
             <option value="February">
@@ -68,7 +75,8 @@
             <option value="November">
             <option value="December">
           </datalist>
-          <input name="date" type="number" placeholder="Date of Birth">
+          <label for="date">Date of birth</label>
+          <input id="date" name="date" type="number" placeholder="Date of Birth">
         </div>
 
 </html>
