@@ -7,21 +7,25 @@
     <body>
       <form>
         <div id="username">
-          <label for="fname">First Name</label>
-
-          <input id="fname" name="First Name" type="text"  placeholder="First Name">
-          <label for="lname">Last Name</label>
-          <input id="lname" name="Last Name" type="text" placeholder="Last Name">
+          <label for="fname"> First Name
+          <input id="fname" name="First Name" type="text"  placeholder="First Name" required>
+          </label>
+          <label for="lname"> Last Name
+          <input id="lname" name="Last Name" type="text" placeholder="Last Name"required>
+          </label>
         </div>
-        <div>
-          <label for="email">Email</label>
-          <input id="email" name="Email" type="text"  placeholder="Email">
-          <label for="password">Password</label>
-          <input id="password" name="Password" type="password" placeholder="Password">
+        <div id="dev_email">
+          <label for="email">Email
+          <input id="email" name="Email" type="text"  placeholder="Email" required>
+          </label>
+          <label for="password">Password
+          <input id="password" name="Password" type="password" placeholder="Password"required>
+          </label>
         </div>
-        <div>
-          <label for="year">Year of Birth</label>
-          <input id="year" name="Year"  list="year" type="number" placeholder="Year of birth">
+        <div id="birth">
+          <label for="year">Year of Birth
+          <input id="year" name="Year"  list="year" type="number" placeholder="Year of birth" required>
+          </label>
           <datalist id="year">
             <option value="2005">
             <option value="2004">
@@ -59,8 +63,9 @@
             <option value="1972">
             <option value="1971">
           </datalist>
-          <label for="month">Month of birth</label>
-          <input id="month" name="Month" type="text" list="month" placeholder="Month of birth">
+          <label for="month">Month of birth
+          <input id="month" name="Month" type="text" list="month" placeholder="Month of birth" required>
+          </label>
           <datalist id="month">
             <option value="January">
             <option value="February">
@@ -75,8 +80,9 @@
             <option value="November">
             <option value="December">
           </datalist>
-          <label for="date">Date of birth</label>
-          <input id="date" name="date" type="number" placeholder="Date of Birth">
+          <label for="date">Date of birth
+          <input id="date" name="date" type="number" placeholder="Date of Birth" required>
+          </label>
         </div>
 
 </html>
